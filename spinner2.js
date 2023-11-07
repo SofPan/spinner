@@ -6,14 +6,6 @@ for (const char of spinnerChars) {
   }, x += 200);
 }
 
-// setTimeout(() => {
-//   process.stdout.write();
-// }, 300);
-
-// setTimeout(() => {
-//   process.stdout.write();
-// }, 500);
-
-// setTimeout(() => {
-//   process.stdout.write();
-// }, 700);
+setTimeout(() => {
+  process.stdout.write('\n');
+}, x);
