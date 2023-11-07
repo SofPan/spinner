@@ -1,35 +1,17 @@
+let spinnerChars = ['\r|   ', '\r/   ', '\r-   ', '\r\\   '];
+
 setTimeout(() => {
-  process.stdout.write('\r|   ');
+  process.stdout.write();
 }, 100);
 
 setTimeout(() => {
-  process.stdout.write('\r/   ');
+  process.stdout.write();
 }, 300);
 
 setTimeout(() => {
-  process.stdout.write('\r-   ');
+  process.stdout.write();
 }, 500);
 
 setTimeout(() => {
-  process.stdout.write('\r\\   ');
+  process.stdout.write();
 }, 700);
-
-setTimeout(() => {
-  process.stdout.write('\r|   ');
-}, 900);
-
-setTimeout(() => {
-  process.stdout.write('\r/   ');
-}, 1100);
-
-setTimeout(() => {
-  process.stdout.write('\r-   ');
-}, 1300);
-
-setTimeout(() => {
-  process.stdout.write('\r\\   ');
-}, 1500);
-
-setTimeout(() => {
-  process.stdout.write('\n');
-}, 1700);
