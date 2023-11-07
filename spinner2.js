@@ -1,9 +1,9 @@
 let spinnerChars = ['\r|   ', '\r/   ', '\r-   ', '\r\\   '];
-
+let x = 100;
 for (const char of spinnerChars) {
   setTimeout(() => {
     process.stdout.write(char);
-  }, 100);
+  }, x += 200);
 }
 
 // setTimeout(() => {
